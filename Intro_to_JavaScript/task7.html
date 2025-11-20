@@ -8,10 +8,10 @@
 <body>
     <h2>Enter your number:</h2>
     <input type="number" id="numberInput" placeholder="Enter a number">
-    <button onclick="square()">Submit</button>
+    <button onclick="findSquare()">Submit</button>
 
     <script>
-        function square() {
+        function findSquare() {
             let num = document.getElementById("numberInput").value;
             num = Number(num) * Number(num);
             alert("the square is " + num);
